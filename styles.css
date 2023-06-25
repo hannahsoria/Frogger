@@ -1,0 +1,42 @@
+.grid {
+    border: 1px solid black;
+    height: 540px;
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    background-color: green;
+    height: 60px;
+    width: 60px;
+}
+
+.ending-block {
+    background-image: url('images/finish.png');
+}
+
+.starting-block {
+    background-image: url('images/pad.png');
+}
+
+.l1, .l2, .l3 {
+    background-image: url('images/log.png');
+}
+
+.l4, .l5 {
+    background-image: url('images/water.png');
+}
+
+.c1 {
+    background-color: rgb(151, 157, 159);
+    background-image: url('images/car.png');
+}
+
+.c2,.c3 {
+    background-image: url('images/road.png');
+}
+
+.frog {
+    background-image: url('images/frog.png');
+}
